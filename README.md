@@ -141,3 +141,94 @@ Pneumonia-Detection-using-CNN/
 
 Only include results and features you have actually completed. Do not claim
 clinical accuracy or clinical suitability.
+
+
+
+## 2. Technologies Used
+
+- Python
+- TensorFlow and Keras
+- Convolutional Neural Network (CNN)
+- Streamlit
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Pillow (PIL)
+
+## 3. Project Features
+
+- Chest X-ray image classification
+- Image preprocessing
+- CNN model training
+- Normal and Pneumonia prediction
+- Model performance evaluation
+- Confusion Matrix visualization
+- Training and Validation Accuracy graphs
+- Interactive Streamlit web application
+
+## 4. Model Performance
+
+The trained CNN model was evaluated using test data.
+
+| Metric | Result |
+|---|---:|
+| Test Accuracy | 82% |
+| ROC-AUC Score | 0.9028 |
+| Weighted F1-Score | 0.80 |
+
+## 5. Evaluation Results
+
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+### Training Accuracy
+![Training Accuracy](training_accuracy.png)
+
+### Training Loss
+![Training Loss](training_loss.png)
+
+## 6. Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Punit-patel-91/Pneumonia-Detection-using-CNN.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Pneumonia-Detection-using-CNN
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+## 7. Model Training
+
+To train the CNN model, run:
+
+```bash
+python train.py
+```
+
+## 8. Future Improvements
+
+- Improve classification performance
+- Reduce false predictions
+- Experiment with transfer learning
+- Improve model generalization
+
+## 9. Disclaimer
+
+This project is developed for educational purposes only.
+It is not intended for real-world medical diagnosis or treatment.
